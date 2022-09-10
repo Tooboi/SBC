@@ -162,13 +162,15 @@ body {
 .content {
   margin: 0px;
   display: grid;
-  width: 98vw;
+  width: 100vw;
   row-gap: 0px;
   column-gap: 0px;
   grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr;
 }
 .smokeyText {
   position: absolute;
+  max-height: fit-content;
 }
 .bannerP {
   font-size: 1.4em;
@@ -180,7 +182,7 @@ body {
 }
 .bannerButton {
   max-width: 80vw;
-  margin: 50px;
+  margin: 80px 50px 200px 50px;
   padding: 2vw;
   color: #243022;
   border-radius: 8px;
@@ -190,9 +192,13 @@ body {
   text-shadow: 6px 6px 18px#243022dd;
 
 }
+.bannerButton:hover {
+  color: #121811;
+}
 .bannerButton:active {
   margin: 50px;
   padding: 2vw;
+  color: #121811;
   border-radius: 8px;
   background: #c2c6a7;
   box-shadow: 6px 6px 20px #a5a88e, -6px -6px 20px #dfe4c0;
