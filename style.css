@@ -3,9 +3,7 @@
   background: #c2c6a7;
   width: 100vw;
   height: 100vh;
-
 }
-
 .full-hw {
   width: 100vw;
   height: 100vh;
@@ -197,15 +195,15 @@
   padding: 1rem;
   border-radius: 1rem;
   background: #c2c6a7;
-  box-shadow: 6px 6px 20px #a5a88e, -6px -6px 20px #dfe4c0;
   transition: all 0.2s ease-out;
+  box-shadow: 10px 10px 20px #a5a88e, -10px -10px 20px #dfe4c0;
 }
 
 .input:focus {
-  outline-color: #3a4c36;
   background: #c2c6a7;
-  box-shadow: 10px 10px 20px #a5a88e, -10px -10px 20px #dfe4c0;
   transition: all 0.2s ease-out;
+  border: none;
+  box-shadow: 6px 6px 20px #a5a88e, -6px -6px 20px #dfe4c0;
 }
 .enterCode {
   display: flex;
