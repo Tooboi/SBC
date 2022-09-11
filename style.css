@@ -188,6 +188,68 @@
   font-size: 4em;
   z-index: 1;
 }
+
+
+
+/* From uiverse.io by @Akshdeep74644 */
+.input-group {
+  position: relative;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.input {
+  border: 3px solid #000;
+  background: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: black;
+}
+
+.user-label {
+  position: absolute;
+padding: .1em;
+  left: 6em;
+  color: #3a4c36;
+  pointer-events: none;
+  transform: translateY(1rem);
+  transition: 350ms;
+}
+
+.input:focus,
+input:valid {
+  outline: none;
+  --angle: 0deg;
+  border-bottom: 3px solid;
+  border-image: conic-gradient(from var(--angle), blue, turquoise, blue, turquoise, blue) 1;
+  animation: 3s rotate9234 linear infinite;
+}
+
+@keyframes rotate9234 {
+  to {
+    --angle: 360deg;
+  }
+}
+
+@property --angle {
+  syntax: '<angle>';
+  initial-value: 0deg;
+  inherits: false;
+}
+
+.input:focus~label,
+input:valid~label {
+  transform: translateY(250%) scale(1);
+
+  padding: 0 .2em;
+  color: #3a4c36;
+}
+
+
+
+
+
+/*
 .input {
   display: block;
   margin: 0 auto;
@@ -205,6 +267,7 @@
   border: none;
   box-shadow: 6px 6px 20px #a5a88e, -6px -6px 20px #dfe4c0;
 }
+*/
 .enterCode {
   display: flex;
   margin: 0 auto;
