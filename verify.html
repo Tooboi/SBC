@@ -37,12 +37,15 @@
         <h1 class="font-brandonBold dark-1">Enter code below</h1>
       </div>
 
-      <section>
-        <div class="input-group">
-            <input class="input" autocomplete="off" name="text" type="text" required="">
-            <label class="user-label font-brandonRegular">Code</label>
-        </div>
-    </section>
+      <div class="input">
+        <form action="#" method="GET">
+          <input
+            type="number"
+            name="text"
+            class="codeInputField"
+            placeholder="Enter code..."
+            pattern="[0-9]{1-15}"/>
+      </div> 
 
       <div class="bannerButton">
             <p class="font-brandonRegular">validate</p>
@@ -56,20 +59,12 @@
     <div class="bottom-stick">
       <div class="footer font-brandonRegular bg-transp dark-2">
         <p>&copy; 2022 Smokey Bare Co.</p>
-        <p>version 0.07a</p>
+        <p>version 0.08a</p>
       </div>
     </div>
   </body>
 </html>
-<!--
-<div>
-    <form action="#" method="GET">
-      <input
-        type="number"
-        name="text"
-        class="input"
-        placeholder="Enter code..."
-        pattern="[0-9]{10}"/>
-  </div>    
--->
+
+   
+
 
