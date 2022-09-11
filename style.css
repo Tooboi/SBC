@@ -1,8 +1,11 @@
-body {
+@media (min-width: 320px) and (max-width: 999px){
+  body {
   background: #c2c6a7;
   width: 100vw;
   height: 100vh;
+
 }
+
 .full-hw {
   width: 100vw;
   height: 100vh;
@@ -371,7 +374,7 @@ body {
   background-position: 100% 0;
 }
 .product_load3 img {
-  padding: 0.5em;
+  padding: 0.6em;
   width: 70px;
   height: 70px;
 }
@@ -546,4 +549,5 @@ body {
 }
 .card2-stats {
   grid-area: stats;
+}
 }
