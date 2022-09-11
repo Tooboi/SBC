@@ -477,27 +477,34 @@
     border: 1px none;
     display: flex;
     flex-direction: column;
+    align-content: center;
     row-gap: 25px;
     height: 160vh;
     width: 100vw;
     padding: 0px 62px;
+    align-items: center;
   }
   .sativa {
     align-items: flex-start;
     border: 1px none;
     border-radius: 12px;
-    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6, 10px -10px 20px #abae9333, -10px 10px 20px #abae9333, inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
+    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6,
+      10px -10px 20px #abae9333, -10px 10px 20px #abae9333,
+      inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
     display: flex;
     height: 150px;
     margin-top: 0px;
     overflow: hidden;
     width: 250;
+    align-content: center;
   }
   .indica {
     align-items: flex-start;
     border: 1px none;
     border-radius: 12px;
-    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6, 10px -10px 20px #abae9333, -10px 10px 20px #abae9333, inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
+    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6,
+      10px -10px 20px #abae9333, -10px 10px 20px #abae9333,
+      inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
     display: flex;
     height: 150px;
     margin-top: 0px;
@@ -508,7 +515,9 @@
     align-items: flex-start;
     border: 1px none;
     border-radius: 12px;
-    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6, 10px -10px 20px #abae9333, -10px 10px 20px #abae9333, inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
+    box-shadow: 10px 10px 25px #abae93e6, -10px -10px 20px #d9debbe6,
+      10px -10px 20px #abae9333, -10px 10px 20px #abae9333,
+      inset -1px -1px 2px #abae9380, inset 1px 1px 2px #d9debb4c;
     display: flex;
     height: 150px;
     margin-top: 0px;
@@ -571,12 +580,14 @@
     line-height: 16px;
     text-align: center;
     width: 180px;
-    font-size: .8em;
+    font-size: 0.8em;
   }
   .strain-type-hyb {
     background-color: #98c453;
     border: 1px none;
-    box-shadow: inset 4px 4px 10px #3d4e21e6, inset -4px -4px 8px #f3ff85e6, inset 4px -4px 8px #3d4e2133, inset -4px 4px 8px #3d4e2133, -1px -1px 2px #3d4e2180, 1px 1px 2px #f3ff854c;
+    box-shadow: inset 4px 4px 10px #3d4e21e6, inset -4px -4px 8px #f3ff85e6,
+      inset 4px -4px 8px #3d4e2133, inset -4px 4px 8px #3d4e2133,
+      -1px -1px 2px #3d4e2180, 1px 1px 2px #f3ff854c;
     height: 150px;
     left: 0;
     position: absolute;
@@ -587,7 +598,9 @@
   .strain-type-ind {
     background-color: #7052a3;
     border: 1px none;
-    box-shadow: inset 4px 4px 10px #2d2141e6, inset -4px -4px 8px #b383ffe6, inset 4px -4px 8px #2d214133, inset -4px 4px 8px #2d214133, -1px -1px 2px #2d214180, 1px 1px 2px #b383ff4c;
+    box-shadow: inset 4px 4px 10px #2d2141e6, inset -4px -4px 8px #b383ffe6,
+      inset 4px -4px 8px #2d214133, inset -4px 4px 8px #2d214133,
+      -1px -1px 2px #2d214180, 1px 1px 2px #b383ff4c;
     height: 150px;
     left: 0;
     position: absolute;
@@ -598,7 +611,9 @@
   .strain-type-sat {
     background-color: #ec5531;
     border: 1px none;
-    box-shadow: inset 4px 4px 10px #5e2214e6, inset -4px -4px 8px #ff884ee6, inset 4px -4px 8px #5e221480, inset -4px 4px 8px #5e221433, -1px -1px 2px #5e221480, 1px 1px 2px #ff884e4c;
+    box-shadow: inset 4px 4px 10px #5e2214e6, inset -4px -4px 8px #ff884ee6,
+      inset 4px -4px 8px #5e221480, inset -4px 4px 8px #5e221433,
+      -1px -1px 2px #5e221480, 1px 1px 2px #ff884e4c;
     height: 150px;
     left: 0;
     position: absolute;
@@ -609,7 +624,7 @@
   .labTest img {
     height: 50px;
   }
-  .font-1p1em{
+  .font-1p1em {
     font-size: 1.1em;
   }
   .labTest {
