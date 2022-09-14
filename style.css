@@ -532,8 +532,7 @@
     width: 250;
   }
   .overlap-group {
-    height: 151px;
-    margin-top: -1px;
+    height: 150px;
     position: relative;
     width: 250px;
   }
@@ -555,7 +554,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
+ 
+}
   .frame {
     align-items: center;
     border: 1px none;
@@ -620,9 +620,9 @@
   .strain-type-sat {
     background-color: #ec5531;
     border: 1px none;
-    box-shadow: inset 4px 4px 10px #5e2214e6, inset -4px -4px 8px #ff884ee6,
-      inset 4px -4px 8px #5e221480, inset -4px 4px 8px #5e221433,
-      -1px -1px 2px #5e221480, 1px 1px 2px #ff884e4c;
+    box-shadow: inset 4px 4px 10px #5e221435, inset -4px -4px 8px #ff884ee6,
+      inset 4px -4px 8px #5e221435, inset -4px 4px 8px #5e221435,
+      -1px -1px 2px #5e221435, 1px 1px 2px #ff884e35;
     height: 150px;
     left: 0;
     position: absolute;
