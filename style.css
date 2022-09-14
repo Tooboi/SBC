@@ -232,6 +232,9 @@
     align-items: center;
     justify-content: center;
   }
+  .enterCode h2 a {
+    text-decoration: none;
+  }
   .enterCodeText {
     margin: 50px auto;
     display: block;
